@@ -6,7 +6,6 @@ const ul = document.querySelector('nav')
 
 const toogle = () => {
     ul.classList.toggle('active')
-    
     faBars.classList.toggle('hide')
     faTimes.classList.toggle('hide')
 }
